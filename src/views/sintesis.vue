@@ -3,15 +3,21 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    .row.mb-5
+      .col-12.bg-c38.p-5
+        .row.align-items-center
+          .col-lg-4.mb-4.mb-lg-0
+            figure
+              img(src="@/assets/curso/sinte/img1.png", style="width:450px").m-auto
+          .col-lg-8
+            p.mb-4 #[i Up to this point, we have been able to review the twelve verb tenses that are present, present simple, present continuous, present perfect, present perfect continuous, past simple, past continuous, past perfect, and past perfect continuous, future with will, going to and -ing. We have also worked with reporting phrases, regular and irregular verbs, phrase verbs and some work vocabulary. ]
+            p.mb-0.txt-c2 Hasta este punto, hemos podido repasar los doce tiempos verbales, que son: presente, presente simple, presente continuo, presente perfecto, presente perfecto continuo, pasado simple, pasado continuo, pasado perfecto y pasado perfecto continuo, futuro con will, going to e -ing. También hemos trabajado con reporte de frases, verbos regulares e irregulares, verbos frase y vocabulario del trabajo:
     .row.justify-content-center
-      .col-lg-10.mb-5
+      .col-lg-12.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sinte/img1.svg", alt="alt")
       .col-auto
-        a.anexo.mb-4(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/anexo1.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
