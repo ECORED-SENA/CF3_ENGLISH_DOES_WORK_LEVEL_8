@@ -68,7 +68,7 @@
                 h4.text-center.txt-c1.mb-5 #[i Indirect reporting statements]
                 Traduccion.color-primario.mb-4(:dialogo="traduccion3")
                 Audio.color-secundario.mb-4.mx-auto(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/tema3/audio1.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                 .row
@@ -83,7 +83,7 @@
                 h4.text-center.txt-c1.mb-5 #[i Indirect speech: reporting questions]
                 Traduccion.color-primario.mb-4(:dialogo="traduccion4")
                 Audio.color-secundario.mb-4.mx-auto(
-                  :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                  :audio="require('@/assets/curso/tema3/audio2.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                 .row

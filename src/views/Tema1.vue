@@ -162,7 +162,7 @@
                 .row.justify-content-center.mb-3
                   .col-10.pos1.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio1.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c3.mb-0 #[i #[b Job]]
@@ -173,7 +173,7 @@
                 .row.justify-content-center.mb-3
                   .col-10.pos1.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio2.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c3.mb-0 #[i #[b Accountants]]
@@ -184,7 +184,7 @@
                 .row.justify-content-center.mb-3
                   .col-10.pos1.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio3.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c3.mb-0 #[i #[b Bakers]]
@@ -195,7 +195,7 @@
                 .row.justify-content-center.mb-3
                   .col-10.pos1.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio4.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c3.mb-0 #[i #[b Barbers]]
@@ -206,7 +206,7 @@
                 .row.justify-content-center.mb-3
                   .col-10.pos1.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio5.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c3.mb-0 #[i #[b Barmen/women]]
@@ -217,7 +217,7 @@
                 .row.justify-content-center.mb-3
                   .col-10.pos1.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio6.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c3.mb-0 #[i #[b Butchers]]
@@ -228,7 +228,7 @@
                 .row.justify-content-center.mb-3
                   .col-10.pos1.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio7.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c3.mb-0 #[i #[b Chambermaids]]
@@ -239,7 +239,7 @@
                 .row.justify-content-center.mb-3
                   .col-10.pos1.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio8.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c3.mb-0 #[i #[b Fishmongers]]
@@ -342,7 +342,7 @@
                 .row.justify-content-center
                   .col-11.bg-c24.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio9.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center #[b #[i.txt-c1 Sam said:] #[i.txt-c3 “I do not have any homework.”]]
@@ -354,7 +354,7 @@
                 .row.justify-content-center
                   .col-11.bg-c24.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio10.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center #[b #[i.txt-c1 Elisa:] #[i.txt-c3 “It is time to work.”]]
@@ -367,7 +367,7 @@
                 .row.justify-content-center
                   .col-11.bg-c24.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio11.mp3')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center #[b #[i.txt-c1 Teacher:] #[i.txt-c3 “You are ok.”]]
@@ -492,42 +492,42 @@ export default {
           personaje: 'Peter',
           textoIng: 'She says: "I *** ill."',
           textoEsp: 'Ella dice: “Yo estoy enferma”.',
-          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          audio: require('@/assets/curso/tema1/audio12.mp3'),
           palabra: 'am',
         },
         {
           personaje: 'Laura',
           textoIng: '"I will ***", said Mary.',
           textoEsp: '“Yo estudiaré”, dijo Mary.',
-          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          audio: require('@/assets/curso/tema1/audio13.mp3'),
           palabra: 'study',
         },
         {
           personaje: 'Joseph',
           textoIng: 'She said: "The *** is difficult."',
           textoEsp: 'Ella dijo: “El examen está difícil”.',
-          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          audio: require('@/assets/curso/tema1/audio14.mp3'),
           palabra: 'exam',
         },
         {
           personaje: 'Charlie',
           textoIng: 'They said: "They have *** exercise."',
           textoEsp: 'Ellos dijeron: “Ellos han hecho ejercicio”.',
-          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          audio: require('@/assets/curso/tema1/audio15.mp3'),
           palabra: 'taken',
         },
         {
           personaje: 'Ivy',
           textoIng: 'She said: "They have not *** their meals."',
           textoEsp: 'Ella dijo: “Ellos no han comido sus comidas”.',
-          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          audio: require('@/assets/curso/tema1/audio16.mp3'),
           palabra: 'eaten',
         },
         {
           personaje: 'Sally',
           textoIng: 'He said: "Do you *** with me?"',
           textoEsp: 'Él dijo: “¿Estás de acuerdo conmigo?”',
-          audio: require('@/assets/componentes/audios/audio-ej.mp3'),
+          audio: require('@/assets/curso/tema1/audio17.mp3'),
           palabra: 'agree',
         },
       ],
