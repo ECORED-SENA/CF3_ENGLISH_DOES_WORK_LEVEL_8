@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span(style="color: #FFF") 1
-      h1 #[i Reported speech] (Reporte de frases)
+      h1 #[i Reported speech - direct] (Reporte de frases - directo)
     .row
       .col-lg-5.mb-4.mb-lg-0
         figure
@@ -37,9 +37,7 @@
                 p.mb-0.text-center.txt-c1 #[i I am hungry.]
                 p.text-center.txt-c2 Tengo hambre.
                 p.mb-0.text-center.txt-c1 #[i Reported]
-                p.text-center.txt-c2 Reporte
-                p.mb-0.text-center.txt-c1 #[i He said: He is hungry]
-                p.text-center.txt-c2.mb-0 Él dijo: él tiene hambre.
+                p.text-center.txt-c2.mb-0 #[i He said “I am hungry”.]
           .col-md-8.col-lg-4.bg-c5
             .row.justify-content-center
               .col-12.p-0
@@ -49,9 +47,7 @@
                 p.mb-0.text-center.txt-c1 #[i I don't like Peter.]
                 p.text-center.txt-c2 No me gusta Peter.
                 p.mb-0.text-center.txt-c1 #[i Reported]
-                p.text-center.txt-c2 Reporte
-                p.mb-0.text-center.txt-c1 #[i She said: “She doesn’t like him”.]
-                p.text-center.txt-c2.mb-0 Ella dijo: a ella no le gusta él.
+                p.text-center.txt-c2.mb-0 #[i She said “I don’t like Peter”.]
           .col-md-8.col-lg-4.bg-c5
             .row.justify-content-center
               .col-12.p-0
@@ -61,9 +57,7 @@
                 p.mb-0.text-center.txt-c1 #[i My dog comes with me.]
                 p.text-center.txt-c2 Mi perro viene conmigo.
                 p.mb-0.text-center.txt-c1 #[i Reported]
-                p.text-center.txt-c2 Reporte
-                p.mb-0.text-center.txt-c1 #[i He said: “The dog comes with him”]
-                p.text-center.txt-c2.mb-0 Él dijo: el perro viene con él.
+                p.text-center.txt-c2.mb-0 #[i He said “my dog comes with me”.]
         .row
           .col-lg-6.mb-4.mb-lg-0
             figure
@@ -103,9 +97,9 @@
                 tbody(style="background-color: #FFF")
                   tr
                     td.text-center #[b a.] #[i She was lost.]
-                    td.text-center #[b a.] #[i A new business started.]
+                    td.text-center #[b #[i a. A new business started.]]
                   tr
-                    td.text-center #[b b.] #[i She was fired.]
+                    td.text-center #[b #[i b. She was fired.]]
                     td.text-center #[b b.] #[i They closed the previous store.]
                   tr
                     td.text-center #[b c.] #[i She did not know where to live.]
@@ -122,7 +116,7 @@
                   tr
                     td.text-center #[b a.] #[i She was lost.]
                   tr
-                    td.text-center #[b b.] #[i She was fired.]
+                    td.text-center #[b #[i b. She was fired.]]
                   tr
                     td.text-center #[b c.] #[i She did not know where to live.]
                   tr
@@ -134,7 +128,7 @@
                     th #[i When the person who writes the story said: “we are going to find something to do”, what happened?]
                 tbody(style="background-color: #FFF")
                   tr
-                    td.text-center #[b a.] #[i A new business started.]
+                    td.text-center #[b #[i a. A new business started.]]
                   tr
                     td.text-center #[b b.] #[i They closed the previous store.]
                   tr
@@ -168,7 +162,7 @@
                     p.text-center.txt-c3.mb-0 #[i #[b Job]]
                     p.text-center.txt-c1.mb-0 #[i #[b What do they do?]]
                     p.text-center.txt-c1.mb-0 #[i #[b Where do they work?]]
-                    p.text-center.mb-0 #[i He said: “ I work in the office”]
+                    p.text-center.mb-0 #[i He said: “I work in the office”]
               .tarjeta.bg-c15.p-4
                 .row.justify-content-center.mb-3
                   .col-10.pos1.p-4
@@ -195,7 +189,7 @@
                 .row.justify-content-center.mb-3
                   .col-10.pos1.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/curso/tema1/audio4.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio1.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c3.mb-0 #[i #[b Barbers]]
@@ -217,7 +211,7 @@
                 .row.justify-content-center.mb-3
                   .col-10.pos1.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/curso/tema1/audio6.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio2.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c3.mb-0 #[i #[b Butchers]]
@@ -228,24 +222,24 @@
                 .row.justify-content-center.mb-3
                   .col-10.pos1.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/curso/tema1/audio7.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio3.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c3.mb-0 #[i #[b Chambermaids]]
                     p.text-center.txt-c1.mb-0 #[i #[b Clean and tidy rooms.]]
                     p.text-center.txt-c1.mb-0 #[i #[b They work in a hotel.]]
-                    p.text-center.mb-0 They said: “They work in hotels.”
+                    p.text-center.mb-0 They said: “We work in hotels”
               .tarjeta.bg-c21.p-4
                 .row.justify-content-center.mb-3
                   .col-10.pos1.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/curso/tema1/audio8.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio4.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center.txt-c3.mb-0 #[i #[b Fishmongers]]
                     p.text-center.txt-c1.mb-0 #[i #[b Prepare and sell fish.]]
-                    p.text-center.txt-c1.mb-0 #[i #[b They work in a fishmonger’s.]]
-                    p.text-center.mb-0 They said: “They work in rivers selling fish.”
+                    p.text-center.txt-c1.mb-0 #[i #[b They work in rivers]]
+                    p.text-center.mb-0 They said: “We work in rivers selling fish”
     .row.bg-c22
       .col-12.p-5
         Traduccion.color-primario.mb-5(:dialogo="traduccion5")
@@ -269,7 +263,7 @@
                     tbody(style="background-color: #FFF")
                       tr
                         td.text-center #[b a.] #[i They said they danced with two girls.]
-                        td.text-center #[b a.] #[i A student said: "I always do my homework."]
+                        td.text-center #[b #[i a. A student said: "I always do my homework."]]
                       tr
                         td.text-center #[b b.] #[i We said we danced with two girls.]
                         td.text-center #[b b.] #[i A student said: "They always do my homework."]
@@ -277,7 +271,7 @@
                         td.text-center #[b c.] #[i We danced with two girls.]
                         td.text-center #[b c.] #[i A student said: "She always does my homework."]
                       tr
-                        td.text-center #[b d.] #[i He said: "We danced with two girls."]
+                        td.text-center #[b #[i d. He said: "We danced with two girls."]]
                         td.text-center #[b d.] #[i A student said: "I always did my homework."]
               .col-lg-12.d-block.d-lg-none
                 .tabla-a.color-acento-botones.mb-4
@@ -297,7 +291,7 @@
                       tr
                         td.text-center #[b c.] #[i We danced with two girls.]
                       tr
-                        td.text-center #[b d.] #[i He said: "We danced with two girls."]
+                        td.text-center #[b #[i d. He said: "We danced with two girls."]]
                 .tabla-a.color-acento-botones
                   table
                     thead(style="border-top: 0px")
@@ -309,7 +303,7 @@
                         th #[i He says he always does his homework.]
                     tbody(style="background-color: #FFF")
                       tr
-                        td.text-center #[b a.] #[i A student said: "I always do my homework."]
+                        td.text-center #[b #[i a. A student said: "I always do my homework."]]
                       tr
                         td.text-center #[b b.] #[i A student said: "They always do my homework."]
                       tr
@@ -342,7 +336,7 @@
                 .row.justify-content-center
                   .col-11.bg-c24.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/curso/tema1/audio9.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio5.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center #[b #[i.txt-c1 Sam said:] #[i.txt-c3 “I do not have any homework.”]]
@@ -354,7 +348,7 @@
                 .row.justify-content-center
                   .col-11.bg-c24.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/curso/tema1/audio10.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio6.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center #[b #[i.txt-c1 Elisa:] #[i.txt-c3 “It is time to work.”]]
@@ -367,7 +361,7 @@
                 .row.justify-content-center
                   .col-11.bg-c24.p-4
                     Audio.color-secundario.mb-4.mx-auto(
-                      :audio="require('@/assets/curso/tema1/audio11.mp3')"
+                      :audio="require('@/assets/curso/tema1/audio7.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
                     p.text-center #[b #[i.txt-c1 Teacher:] #[i.txt-c3 “You are ok.”]]

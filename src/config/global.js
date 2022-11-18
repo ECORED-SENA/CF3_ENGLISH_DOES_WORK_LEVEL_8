@@ -42,7 +42,8 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: '<em>Reported speech</em> (Reporte de frases)',
+        titulo:
+          '<em>Reported speech - direct</em> (Reporte de frases - directo)',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -71,7 +72,8 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: '<em>Reported speech</em> (Discurso indirecto)',
+        titulo:
+          '<em>Reported speech - indirect</em> (Reporte de frases - indirecto)',
         desarrolloContenidos: true,
       },
       {
@@ -89,12 +91,12 @@ export default {
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
-      //{
-      //  nombreRuta: 'actividad',
-      //  icono: 'far fa-question-circle',
-      //  titulo: 'Actividad didáctica',
-      //  desarrolloContenidos: true,
-      //},
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -159,7 +161,7 @@ export default {
   ],
   glosario: [
     {
-      termino: '<em>Field</em>',
+      termino: '<em>Field</em> / Campo',
       significado:
         'relacionado con el campo de acción en el que alguien se desempeña, relacionado con un perfil laboral.',
     },
@@ -169,12 +171,12 @@ export default {
         'vocabulario relacionado con el trabajo, frases usadas y palabras conocidas.',
     },
     {
-      termino: '<em>Reported speech</em> / Discurso indirecto',
+      termino: '<em>Reported speech</em> / Reporte de frases',
       significado:
         'consiste en el reporte que se hace de una frase original dicha por alguien, puede ser en forma directa o indirecta. En Inglés, se denomina reported speech.',
     },
     {
-      termino: '<em>Speech</em>',
+      termino: '<em>Speech</em> / Discurso',
       significado:
         'relacionado con las palabras que alguien ofrece para un público en general.',
     },
@@ -186,7 +188,7 @@ export default {
   ],
   complementario: [
     {
-      tema: '<em>Reported speech</em> (Discurso directo)',
+      tema: '<em>Reported speech</em> (Reporte de frases)',
       referencia:
         'Coulmas, F. (1986). Reported speech: Some general issues. <em>Direct and indirect speech, 31, p. 1-28</em>.',
       tipo: 'Artículo web',
@@ -318,7 +320,7 @@ export default {
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Lina Marcela Pérez Manchego',
         cargo: 'Validación de contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

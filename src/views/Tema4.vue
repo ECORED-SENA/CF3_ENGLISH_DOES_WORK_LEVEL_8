@@ -29,7 +29,7 @@
           .row
             .col-12.bg-c34
               .p-4
-                p.mb-0.text-center #[i He #[span.txt-c1 used to] smoke (but now he doesn't smoke).]
+                p.mb-0.text-center #[i She #[span.txt-c1 used to] smoke (but now he doesn't smoke).]
       .col-lg.bg-c33.m-2
         .p-4
           figure.mb-4
@@ -38,7 +38,7 @@
             .col-12.bg-c34
               .p-4
                 p.mb-0.text-center #[i They #[span.txt-c1 used to] live in Medellin (but now they live in Bogota).]
-    p.mb-5 #[i We use used to + infinitive to talk about a past situation that is no longer true. It tells us that there was a repeated action or state in the past which has now changed. So check the grammar:] / #[span.txt-c2 Usamos used to + infinitivo para hablar de una situación pasada que ya no es cierta. Nos dice que hubo una acción o estado repetido en el pasado que ahora ha cambiado. Así que revise la gramática:]
+    p.mb-5 #[i We use used to + infinitive to talk about a past situation that is no longer true. It tells us that there was a repeated action or state in the past which has now changed. So check the grammar:] / #[span.txt-c2 Usamos #[i used to] + infinitivo para hablar de una situación pasada que ya no es cierta. Nos dice que hubo una acción o estado repetido en el pasado que ahora ha cambiado. Así que revise la gramática:]
     .row.mb-5
       .col-12.bg-c35.p-4
         .row.align-items-center
@@ -109,7 +109,7 @@ export default {
           textoIng:
             '<em>When we use expressions to talk about routines or repeated actions in the past which we don&apos;t do in the present or we talk about states in the past which are no longer true, it is necessary to refer to <span>“used to”</span>:</em>',
           textoEsp:
-            'Cuando usamos expresiones para hablar de rutinas o acciones repetidas en el pasado que no hacemos en el presente o hablamos de estados del pasado que ya no son ciertos, es necesario referirse a “used to”:',
+            'Cuando usamos expresiones para hablar de rutinas o acciones repetidas en el pasado que no hacemos en el presente o hablamos de estados del pasado que ya no son ciertos, es necesario referirse a “<em>used to</em>”:',
         },
       ],
     },

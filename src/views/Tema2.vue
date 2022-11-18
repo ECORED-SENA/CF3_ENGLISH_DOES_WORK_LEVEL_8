@@ -23,7 +23,7 @@
               .col-auto.my-5.me-4.p-4
                 .bg-c27.p-3
                   Audio.color-secundario(
-                    :audio="require('@/assets/curso/tema2/audio1.mp3')"
+                    :audio="require('@/assets/curso/tema2/audio1.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                   )
                 .indicador--click(v-if="mostrarIndicadorAudio")
@@ -69,7 +69,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 Traduccion.color-primario.mb-4(:dialogo="traduccion3")
                 Audio.color-secundario.mb-4.mx-auto(
-                  :audio="require('@/assets/curso/tema2/audio2.mp3')"
+                  :audio="require('@/assets/curso/tema2/audio2.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
               .col-lg-5
@@ -97,7 +97,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 Traduccion.color-primario.mb-4(:dialogo="traduccion4")
                 Audio.color-secundario.mb-4.mx-auto(
-                  :audio="require('@/assets/curso/tema2/audio3.mp3')"
+                  :audio="require('@/assets/curso/tema2/audio3.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
               .col-lg-5
@@ -125,7 +125,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 Traduccion.color-primario.mb-4(:dialogo="traduccion5")
                 Audio.color-secundario.mb-4.mx-auto(
-                  :audio="require('@/assets/curso/tema2/audio4.mp3')"
+                  :audio="require('@/assets/curso/tema2/audio4.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
               .col-lg-5
@@ -171,10 +171,10 @@
                     tbody(style="background-color: #FFF")
                       tr
                         td.text-center #[b a.] #[i Past perfect]
-                        td.text-center #[b a.] #[i Simple future]
-                        td.text-center #[b a.] #[i Future perfect progressive]
+                        td.text-center #[b #[i a. Simple future]]
+                        td.text-center #[b #[i a. Future perfect progressive]]
                       tr
-                        td.text-center #[b b.] #[i Present perfect progressive]
+                        td.text-center #[b #[i b. Present perfect progressive]]
                         td.text-center #[b b.] #[i Perfect progressive]
                         td.text-center #[b b.] #[i Present perfect progressive]
               .col-12.d-block.d-lg-none
@@ -187,7 +187,7 @@
                       tr
                         td.text-center #[b a.] #[i Past perfect]
                       tr
-                        td.text-center #[b b.] #[i Present perfect progressive]
+                        td.text-center #[b #[i b. Present perfect progressive]]
                 .tabla-a.color-acento-botones.mb-4
                   table
                     thead(style="border-top: 0px")
@@ -195,7 +195,7 @@
                         th #[i She said: “I will work.”]
                     tbody(style="background-color: #FFF")
                       tr
-                        td.text-center #[b a.] #[i Simple future]
+                        td.text-center #[b #[i a. Simple future]]
                       tr
                         td.text-center #[b b.] #[i Perfect progressive]
                 .tabla-a.color-acento-botones.mb-4
@@ -205,7 +205,7 @@
                         th #[i They said: “I will have been walking around the store.”]
                     tbody(style="background-color: #FFF")
                       tr
-                        td.text-center #[b a.] #[i Future perfect progressive]
+                        td.text-center #[b #[i a. Future perfect progressive]]
                       tr
                         td.text-center #[b b.] #[i Present perfect progressive]
       figure.fig-p8.d-none.d-xl-block

@@ -6,7 +6,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span(style="color: #FFF") 3
-      h1 #[i Reported speech] (Discurso indirecto)
+      h1 #[i Reported speech - indirect] (Reporte de frases - indirecto)
     .row.bg-c29.mb-5
       .col-12.px-5
         .row.mb-5
@@ -15,6 +15,9 @@
           .col-lg-5
             figure
               img(src="@/assets/curso/tema3/img1.png", style="width:500px").m-auto
+        figure.mb-5
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/K3B4LsxubB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         .titulo-sexto.color-primario.mb-4
           p.mb-0 #[b Tabla 2]. #[i Direct and indirect speech]
         .tabla-b.color-acento-contenido.borde1.mb-5
@@ -68,7 +71,7 @@
                 h4.text-center.txt-c1.mb-5 #[i Indirect reporting statements]
                 Traduccion.color-primario.mb-4(:dialogo="traduccion3")
                 Audio.color-secundario.mb-4.mx-auto(
-                  :audio="require('@/assets/curso/tema3/audio1.mp3')"
+                  :audio="require('@/assets/curso/tema3/audio1.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                 .row
@@ -83,7 +86,7 @@
                 h4.text-center.txt-c1.mb-5 #[i Indirect speech: reporting questions]
                 Traduccion.color-primario.mb-4(:dialogo="traduccion4")
                 Audio.color-secundario.mb-4.mx-auto(
-                  :audio="require('@/assets/curso/tema3/audio2.mp3')"
+                  :audio="require('@/assets/curso/tema3/audio2.wav')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
                 .row
