@@ -16,7 +16,7 @@
               figure.fig-p1
                 img(src="@/assets/curso/intro/img4.svg")
               .col-12
-                p.mb-0 Le damos la bienvenida al componente formativo denominado #[span.txt-c1 “Things that were done / Cosas que fueron realizadas...”], en el cual se desarrollan temáticas sobre reported speech, estructuras afirmativas, negativas e interrogativas y rutinas laborales, lo cual brindará un conocimiento de la manera ideal para el aprendizaje de un segundo idioma. Comencemos con la siguiente información:
+                p.mb-0 Le damos la bienvenida al componente formativo denominado #[span.txt-c1 “#[i Things that were done] / Cosas que fueron realizadas...”], en el cual se desarrollan temáticas sobre reported speech, estructuras afirmativas, negativas e interrogativas y rutinas laborales, lo cual brindará un conocimiento de la manera ideal para el aprendizaje de un segundo idioma. Comencemos con la siguiente información:
               figure.fig-p2
                 img(src="@/assets/curso/intro/img3.svg")
           .col-lg-4
@@ -53,7 +53,7 @@ export default {
           textoIng:
             '<em>In order to transmit the information received in daily and work situations, taking into account the functions and forms of the language, it is important to consult and master the reported speech, the different verb tenses, and, of course, the related vocabulary.<br>To communicate in English and discuss the activities of daily life with our friends and family, it is essential to have a large vocabulary.<br>In this component, you will learn how to manage verb tenses to spontaneously narrate topics such as “Let&apos;s talk about the work and social routines I used to have.”</em>',
           textoEsp:
-            'Con el fin de transmitir la información recibida de situaciones cotidianas y laborales, teniendo en cuenta las funciones y formas del lenguaje, es importante consultar y tener dominio del reported speech (reporte de frases), los diferentes tiempos verbales y, por supuesto, el vocabulario relacionado.<br>Para comunicarnos en inglés y comentar acerca de las actividades de la vida diaria con nuestros amigos y familiares, es indispensable tener un amplio vocabulario.<br>En este componente inicial, usted aprenderá cómo manejar los tiempos verbales con el fin de narrar de manera espontánea temáticas tales como “Let&apos;s talk about the work and social routines I used to have” (Hablemos de las rutinas laborales y sociales que solía tener).',
+            'Con el fin de transmitir la información recibida de situaciones cotidianas y laborales, teniendo en cuenta las funciones y formas del lenguaje, es importante consultar y tener dominio del <em>reported speech</em> (reporte de frases), los diferentes tiempos verbales y, por supuesto, el vocabulario relacionado.<br>Para comunicarnos en inglés y comentar acerca de las actividades de la vida diaria con nuestros amigos y familiares, es indispensable tener un amplio vocabulario.<br>En este componente inicial, usted aprenderá cómo manejar los tiempos verbales con el fin de narrar de manera espontánea temáticas tales como <em>“Let&apos;s talk about the work and social routines I used to have”</em> (Hablemos de las rutinas laborales y sociales que solía tener).',
         },
       ],
     },

@@ -1,7 +1,7 @@
 export default {
   global: {
     componenteFormativo:
-      '<span1><em>Things that were done</em></span1><br><span>Cosas que fueron realizadas...</span>',
+      '<span1><em>Things that were done...</em></span1><br><span>Cosas que fueron realizadas...</span>',
     descripcionCurso:
       'Este componente va a tratar sobre el estilo indirecto, el vocabulario y las frases del trabajo, las rutinas laborales y sociales que se solían tener. Habrá la oportunidad de aclarar dudas en cuanto a estructuras presentes, pasadas y futuras.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),

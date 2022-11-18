@@ -125,7 +125,7 @@
               .col-lg-7.mb-4.mb-lg-0
                 Traduccion.color-primario.mb-4(:dialogo="traduccion5")
                 Audio.color-secundario.mb-4.mx-auto(
-                  :audio="require('@/assets/curso/tema2/audio3.mp3')"
+                  :audio="require('@/assets/curso/tema2/audio4.mp3')"
                   @audio-hover="mostrarIndicadorAudio = false"
                 )
               .col-lg-5

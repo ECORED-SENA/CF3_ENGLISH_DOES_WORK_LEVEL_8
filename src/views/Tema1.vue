@@ -406,7 +406,7 @@ export default {
           textoIng:
             '<em>The reported speech is used to report something somebody has said, it can be done in two different ways, the first one is called direct and it implies we must say what the speaker said in highlights. That sentence does not suffer any change, so the only thing that needs to be added is the expression <span>somebody said, somebody told...</span></em>',
           textoEsp:
-            'El reported speech se utiliza para informar algo que alguien ha dicho, se puede hacer de dos maneras diferentes, la primera se llama directa e implica que debemos resaltar lo que dijo el hablante. Esa oración no sufre ningún cambio, por lo que solo falta agregar la expresión <b>“alguien dijo...”</b>.',
+            'El <em>reported speech</em> se utiliza para informar algo que alguien ha dicho, se puede hacer de dos maneras diferentes, la primera se llama directa e implica que debemos resaltar lo que dijo el hablante. Esa oración no sufre ningún cambio, por lo que solo falta agregar la expresión <b>“alguien dijo...”</b>.',
         },
       ],
     },
