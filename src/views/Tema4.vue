@@ -29,7 +29,7 @@
           .row
             .col-12.bg-c34
               .p-4
-                p.mb-0.text-center #[i She #[span.txt-c1 used to] smoke (but now he doesn't smoke).]
+                p.mb-0.text-center #[i She #[span.txt-c1 used to] smoke (but now she doesn't smoke).]
       .col-lg.bg-c33.m-2
         .p-4
           figure.mb-4

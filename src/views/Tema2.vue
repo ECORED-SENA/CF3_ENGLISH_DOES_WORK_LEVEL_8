@@ -171,10 +171,10 @@
                     tbody(style="background-color: #FFF")
                       tr
                         td.text-center #[b a.] #[i Past perfect]
-                        td.text-center #[b #[i a. Simple future]]
-                        td.text-center #[b #[i a. Future perfect progressive]]
+                        td.text-center #[b a.] #[i Simple future]
+                        td.text-center #[b a.] #[i Future perfect progressive]
                       tr
-                        td.text-center #[b #[i b. Present perfect progressive]]
+                        td.text-center #[b b.] #[i Present perfect progressive]
                         td.text-center #[b b.] #[i Perfect progressive]
                         td.text-center #[b b.] #[i Present perfect progressive]
               .col-12.d-block.d-lg-none
@@ -187,7 +187,7 @@
                       tr
                         td.text-center #[b a.] #[i Past perfect]
                       tr
-                        td.text-center #[b #[i b. Present perfect progressive]]
+                        td.text-center #[b b.] #[i Present perfect progressive]
                 .tabla-a.color-acento-botones.mb-4
                   table
                     thead(style="border-top: 0px")
@@ -195,7 +195,7 @@
                         th #[i She said: “I will work.”]
                     tbody(style="background-color: #FFF")
                       tr
-                        td.text-center #[b #[i a. Simple future]]
+                        td.text-center #[b a.] #[i Simple future]
                       tr
                         td.text-center #[b b.] #[i Perfect progressive]
                 .tabla-a.color-acento-botones.mb-4
@@ -205,9 +205,42 @@
                         th #[i They said: “I will have been walking around the store.”]
                     tbody(style="background-color: #FFF")
                       tr
-                        td.text-center #[b #[i a. Future perfect progressive]]
+                        td.text-center #[b a.] #[i Future perfect progressive]
                       tr
                         td.text-center #[b b.] #[i Present perfect progressive]
+            .row.justify-content-center.mt-4
+                .col-auto
+                  a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                    span Click to check the correct answers
+                    i.fas.fa-eye
+                    .indicador--click(v-if="mostrarIndicador")
+                ModalA(:abrir-modal.sync="modal1")
+                  .row.align-items-center
+                    .col-12
+                      .tabla-a.color-acento-botones.mb-4
+                        table
+                          thead(style="border-top: 0px")
+                            tr
+                              th #[i The doctor said: “I have been working there for years.”]
+                          tbody(style="background-color: #FFF")
+                            tr
+                              td.text-center #[b.txt-c7 #[i b. Present perfect progressive]]
+                      .tabla-a.color-acento-botones.mb-4
+                        table
+                          thead(style="border-top: 0px")
+                            tr
+                              th #[i She said: “I will work.”]
+                          tbody(style="background-color: #FFF")
+                            tr
+                              td.text-center #[b.txt-c7 #[i a. Simple future]]
+                      .tabla-a.color-acento-botones.mb-4
+                        table
+                          thead(style="border-top: 0px")
+                            tr
+                              th #[i They said: “I will have been walking around the store.”]
+                          tbody(style="background-color: #FFF")
+                            tr
+                              td.text-center #[b.txt-c7 #[i a. Future perfect progressive]]
       figure.fig-p8.d-none.d-xl-block
         img(src="@/assets/curso/tema2/img5.svg", style="width:60px")
 
@@ -223,6 +256,7 @@ export default {
     DialogoChat,
   },
   data: () => ({
+    modal1: false,
     traduccion1: {
       dialogo: [
         {

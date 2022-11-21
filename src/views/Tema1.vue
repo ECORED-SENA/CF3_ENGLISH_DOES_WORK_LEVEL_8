@@ -38,6 +38,7 @@
                 p.text-center.txt-c2 Tengo hambre.
                 p.mb-0.text-center.txt-c1 #[i Reported]
                 p.text-center.txt-c2.mb-0 #[i He said “I am hungry”.]
+                p.text-center.txt-c2.mb-0 Él dijo "Tengo hambre".
           .col-md-8.col-lg-4.bg-c5
             .row.justify-content-center
               .col-12.p-0
@@ -48,6 +49,7 @@
                 p.text-center.txt-c2 No me gusta Peter.
                 p.mb-0.text-center.txt-c1 #[i Reported]
                 p.text-center.txt-c2.mb-0 #[i She said “I don’t like Peter”.]
+                p.text-center.txt-c2.mb-0 Ella dijo "No me gusta Peter".
           .col-md-8.col-lg-4.bg-c5
             .row.justify-content-center
               .col-12.p-0
@@ -58,6 +60,7 @@
                 p.text-center.txt-c2 Mi perro viene conmigo.
                 p.mb-0.text-center.txt-c1 #[i Reported]
                 p.text-center.txt-c2.mb-0 #[i He said “my dog comes with me”.]
+                p.text-center.txt-c2.mb-0 Él dijo "Mi perro viene conmigo".
         .row
           .col-lg-6.mb-4.mb-lg-0
             figure
@@ -97,9 +100,9 @@
                 tbody(style="background-color: #FFF")
                   tr
                     td.text-center #[b a.] #[i She was lost.]
-                    td.text-center #[b #[i a. A new business started.]]
+                    td.text-center #[b a.] #[i A new business started.]
                   tr
-                    td.text-center #[b #[i b. She was fired.]]
+                    td.text-center #[b b.] #[i She was fired.]
                     td.text-center #[b b.] #[i They closed the previous store.]
                   tr
                     td.text-center #[b c.] #[i She did not know where to live.]
@@ -116,7 +119,7 @@
                   tr
                     td.text-center #[b a.] #[i She was lost.]
                   tr
-                    td.text-center #[b #[i b. She was fired.]]
+                    td.text-center #[b b.] #[i She was fired.]
                   tr
                     td.text-center #[b c.] #[i She did not know where to live.]
                   tr
@@ -128,13 +131,38 @@
                     th #[i When the person who writes the story said: “we are going to find something to do”, what happened?]
                 tbody(style="background-color: #FFF")
                   tr
-                    td.text-center #[b #[i a. A new business started.]]
+                    td.text-center #[b a.] #[i A new business started.]
                   tr
                     td.text-center #[b b.] #[i They closed the previous store.]
                   tr
                     td.text-center #[b c.] #[i A new written project began.]
                   tr
                     td.text-center #[b d.] #[i The mobile rang.]
+            .row.justify-content-center.mt-4
+              .col-auto
+                a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+                  span Click to check the correct answers
+                  i.fas.fa-eye
+                  .indicador--click(v-if="mostrarIndicador")
+            ModalA(:abrir-modal.sync="modal1")
+              .row.align-items-center
+                .col-12
+                  .tabla-a.color-acento-botones.mb-4
+                    table
+                      thead
+                        tr
+                          th #[i When the sister said “I do not know what to do”, what did she mean?]
+                      tbody(style="background-color: #FFF")
+                        tr
+                          td.text-center #[b.txt-c7 #[i b. She was fired.]]
+                  .tabla-a.color-acento-botones
+                    table
+                      thead
+                        tr
+                          th #[i When the person who writes the story said: “we are going to find something to do”, what happened?]
+                      tbody(style="background-color: #FFF")
+                        tr
+                          td.text-center #[b.txt-c7 #[i a. A new business started.]]
         figure.d-none.d-lg-block.fig-p4
           img(src="@/assets/curso/tema1/img9.svg", style="width:70px")
     Separador
@@ -238,7 +266,7 @@
                     )
                     p.text-center.txt-c3.mb-0 #[i #[b Fishmongers]]
                     p.text-center.txt-c1.mb-0 #[i #[b Prepare and sell fish.]]
-                    p.text-center.txt-c1.mb-0 #[i #[b They work in rivers]]
+                    p.text-center.txt-c1.mb-0 #[i #[b They work in rivers.]]
                     p.text-center.mb-0 They said: “We work in rivers selling fish”
     .row.bg-c22
       .col-12.p-5
@@ -263,7 +291,7 @@
                     tbody(style="background-color: #FFF")
                       tr
                         td.text-center #[b a.] #[i They said they danced with two girls.]
-                        td.text-center #[b #[i a. A student said: "I always do my homework."]]
+                        td.text-center #[b a.] #[iA student said: "I always do my homework."]
                       tr
                         td.text-center #[b b.] #[i We said we danced with two girls.]
                         td.text-center #[b b.] #[i A student said: "They always do my homework."]
@@ -271,7 +299,7 @@
                         td.text-center #[b c.] #[i We danced with two girls.]
                         td.text-center #[b c.] #[i A student said: "She always does my homework."]
                       tr
-                        td.text-center #[b #[i d. He said: "We danced with two girls."]]
+                        td.text-center #[b d.] #[i He said: "We danced with two girls."]
                         td.text-center #[b d.] #[i A student said: "I always did my homework."]
               .col-lg-12.d-block.d-lg-none
                 .tabla-a.color-acento-botones.mb-4
@@ -291,7 +319,7 @@
                       tr
                         td.text-center #[b c.] #[i We danced with two girls.]
                       tr
-                        td.text-center #[b #[i d. He said: "We danced with two girls."]]
+                        td.text-center #[b d.] #[i He said: "We danced with two girls."]
                 .tabla-a.color-acento-botones
                   table
                     thead(style="border-top: 0px")
@@ -303,13 +331,38 @@
                         th #[i He says he always does his homework.]
                     tbody(style="background-color: #FFF")
                       tr
-                        td.text-center #[b #[i a. A student said: "I always do my homework."]]
+                        td.text-center #[b a.] #[i A student said: "I always do my homework."]
                       tr
                         td.text-center #[b b.] #[i A student said: "They always do my homework."]
                       tr
                         td.text-center #[b c.] #[i A student said: "She always does my homework."]
                       tr
                         td.text-center #[b d.] #[i A student said: "I always did my homework."]
+              .row.justify-content-center.mt-4
+                .col-auto
+                  a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
+                    span Click to check the correct answers
+                    i.fas.fa-eye
+                    .indicador--click(v-if="mostrarIndicador")
+                ModalA(:abrir-modal.sync="modal2")
+                  .row.align-items-center
+                    .col-12
+                      .tabla-a.color-acento-botones.mb-4
+                        table
+                          thead(style="border-top: 0px")
+                            tr
+                              th #[i A male dancer said after the show they danced with two girls.]
+                          tbody(style="background-color: #FFF")
+                            tr
+                              td.text-center #[b.txt-c7 #[i d. He said: "We danced with two girls."]]
+                      .tabla-a.color-acento-botones
+                        table
+                          thead(style="border-top: 0px")
+                            tr
+                              th #[i He says he always does his homework.]
+                          tbody(style="background-color: #FFF")
+                            tr
+                              td.text-center #[b.txt-c7 #[i a. A student said: "I always do my homework."]]
           .col-lg-4.d-none.d-lg-block
             figure
               img(src="@/assets/curso/tema1/img15.png", style="width:350px").m-auto
@@ -339,9 +392,9 @@
                       :audio="require('@/assets/curso/tema1/audio5.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
-                    p.text-center #[b #[i.txt-c1 Sam said:] #[i.txt-c3 “I do not have any homework.”]]
-                    p.text-center #[b #[i.txt-c1 Sam asked:] #[i.txt-c3 “Do we have any homework?”]]
-                    p.text-center #[b #[i.txt-c1 Sam denied:] #[i.txt-c3 “I do not have any homework.”]]
+                    p.text-center #[b #[i.txt-c1 Sam said:] #[i.txt-c3 “I do not have any homework”.]]
+                    p.text-center #[b #[i.txt-c1 Sam asked:] #[i.txt-c3 “Do we have any homework?”.]]
+                    p.text-center #[b #[i.txt-c1 Sam denied:] #[i.txt-c3 “I do not have any homework”.]]
               .col-lg.m-2.bg-c25.p-4
                 figure.mb-4
                   img(src="@/assets/curso/tema1/img15.svg", style="width:200px").m-auto
@@ -351,10 +404,10 @@
                       :audio="require('@/assets/curso/tema1/audio6.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
-                    p.text-center #[b #[i.txt-c1 Elisa:] #[i.txt-c3 “It is time to work.”]]
-                    p.text-center #[b #[i.txt-c1 Affirmative:] #[i.txt-c3 Elisa assured: “It is time to work.”]]
-                    p.text-center #[b #[i.txt-c1 Negative:] #[i.txt-c3 Elisa denied: “It is not time to work.”]]
-                    p.text-center #[b #[i.txt-c1 Question:] #[i.txt-c3 Elisa asked: “Is it time to work?”]]
+                    p.text-center #[b #[i.txt-c1 Elisa:] #[i.txt-c3 “It is time to work”.]]
+                    p.text-center #[b #[i.txt-c1 Affirmative:] #[i.txt-c3 Elisa assured: “It is time to work”.]]
+                    p.text-center #[b #[i.txt-c1 Negative:] #[i.txt-c3 Elisa denied: “It is not time to work”.]]
+                    p.text-center #[b #[i.txt-c1 Question:] #[i.txt-c3 Elisa asked: “Is it time to work?”.]]
               .col-lg.m-2.bg-c25.p-4
                 figure.mb-4
                   img(src="@/assets/curso/tema1/img16.svg", style="width:200px").m-auto
@@ -364,10 +417,10 @@
                       :audio="require('@/assets/curso/tema1/audio7.wav')"
                       @audio-hover="mostrarIndicadorAudio = false"
                     )
-                    p.text-center #[b #[i.txt-c1 Teacher:] #[i.txt-c3 “You are ok.”]]
-                    p.text-center #[b #[i.txt-c1 Affirmative:] #[i.txt-c3 Teacher said: “You are ok.”]]
-                    p.text-center #[b #[i.txt-c1 Negative:] #[i.txt-c3 Teacher denied: “You are not ok.”]]
-                    p.text-center #[b #[i.txt-c1 Question:] #[i.txt-c3 Teacher asked: “Are you ok?”]]
+                    p.text-center #[b #[i.txt-c1 Teacher:] #[i.txt-c3 “You are ok”.]]
+                    p.text-center #[b #[i.txt-c1 Affirmative:] #[i.txt-c3 Teacher said: “You are ok”.]]
+                    p.text-center #[b #[i.txt-c1 Negative:] #[i.txt-c3 Teacher denied: “You are not ok”.]]
+                    p.text-center #[b #[i.txt-c1 Question:] #[i.txt-c3 Teacher asked: “Are you ok?”.]]
           figure.fig-p6.d-none.d-xl-block
             img(src="@/assets/curso/tema1/img8.svg", style="width:80px")
     .row.align-items-center.mb-5
@@ -394,6 +447,8 @@ export default {
     DialogoChat,
   },
   data: () => ({
+    modal1: false,
+    modal2: false,
     traduccion1: {
       dialogo: [
         {
