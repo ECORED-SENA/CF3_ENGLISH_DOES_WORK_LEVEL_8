@@ -38,7 +38,7 @@
                 p.text-center.txt-c2 Tengo hambre.
                 p.mb-0.text-center.txt-c1 #[i Reported]
                 p.text-center.txt-c2.mb-0 #[i He said “I am hungry”.]
-                p.text-center.txt-c2.mb-0 Él dijo "Tengo hambre".
+                p.text-center.txt-c2.mb-0 Él dijo "tengo hambre".
           .col-md-8.col-lg-4.bg-c5
             .row.justify-content-center
               .col-12.p-0
@@ -49,7 +49,7 @@
                 p.text-center.txt-c2 No me gusta Peter.
                 p.mb-0.text-center.txt-c1 #[i Reported]
                 p.text-center.txt-c2.mb-0 #[i She said “I don’t like Peter”.]
-                p.text-center.txt-c2.mb-0 Ella dijo "No me gusta Peter".
+                p.text-center.txt-c2.mb-0 Ella dijo "no me gusta Peter".
           .col-md-8.col-lg-4.bg-c5
             .row.justify-content-center
               .col-12.p-0
@@ -60,7 +60,7 @@
                 p.text-center.txt-c2 Mi perro viene conmigo.
                 p.mb-0.text-center.txt-c1 #[i Reported]
                 p.text-center.txt-c2.mb-0 #[i He said “my dog comes with me”.]
-                p.text-center.txt-c2.mb-0 Él dijo "Mi perro viene conmigo".
+                p.text-center.txt-c2.mb-0 Él dijo "mi perro viene conmigo".
         .row
           .col-lg-6.mb-4.mb-lg-0
             figure
