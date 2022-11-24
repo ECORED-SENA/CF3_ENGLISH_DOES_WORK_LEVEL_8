@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF")
           i.fas.fa-info
@@ -11,7 +11,7 @@
     .row.bg-c1
       .col-12.p-5
         .row.align-items-center
-          .col-lg-8.bg-c2.px-5.mb-4.mb-lg-0
+          .col-lg-8.bg-c2.px-5.mb-4.mb-lg-0(data-aos="fade-right")
             .row
               figure.fig-p1
                 img(src="@/assets/curso/intro/img4.svg")
@@ -19,20 +19,20 @@
                 p.mb-0 Le damos la bienvenida al componente formativo denominado #[span.txt-c1 “#[i Things that were done] / Cosas que fueron realizadas...”], en el cual se desarrollan temáticas sobre reported speech, estructuras afirmativas, negativas e interrogativas y rutinas laborales, lo cual brindará un conocimiento de la manera ideal para el aprendizaje de un segundo idioma. Comencemos con la siguiente información:
               figure.fig-p2
                 img(src="@/assets/curso/intro/img3.svg")
-          .col-lg-4
+          .col-lg-4(data-aos="fade-left")
             figure
               img(src="@/assets/curso/intro/img1.png", style="width:300px").m-auto
     .row.bg-c3
       .col-12.px-5.pb-5
-        figure.mb-5
+        figure.mb-5(data-aos="fade-down")
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/x8fd26PBfHw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         .row
-          .col-lg-4.mb-4.mb-lg-0
+          .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
             p Puede repasar el contenido visto en el video a través de la siguiente ventana:
             figure
               img(src="@/assets/curso/intro/img2.png", style="width:300px").m-auto
-          .col-lg-8
+          .col-lg-8(data-aos="fade-left")
             Traduccion.color-primario(:dialogo="traduccion1")
 
 </template>

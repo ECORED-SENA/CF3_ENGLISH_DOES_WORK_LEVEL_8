@@ -3,21 +3,21 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 2
       h1 #[i Verb tenses] (Tiempos verbales)
     .row.bg-c7.mb-5
       .col-12.px-5.pb-5
         .row.mb-5
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
             Traduccion.color-primario(:dialogo="traduccion1")
-          .col-lg-5
+          .col-lg-5(data-aos="fade-left")
             figure
               img(src="@/assets/curso/tema2/img1.png", style="width:500px").m-auto
-        .titulo-sexto.color-primario.mb-4
+        .titulo-sexto.color-primario.mb-4(data-aos="fade-up")
           p.mb-0 #[b Tabla 1]. #[i Verb tenses]
-        .tabla-b.color-acento-contenido.borde1.mb-5
+        .tabla-b.color-acento-contenido.borde1.mb-5(data-aos="fade-right")
           .tabla-b__header.fondo1
             .row.justify-content-end
               .col-auto.my-5.me-4.p-4
@@ -56,14 +56,14 @@
               td.border3.mb-0.text-center #[i.txt-color1 I have been working on several projects.]
               td.mb-0.text-center #[i.txt-color1 I will have been working with several people in 2028]
         .row
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
             Traduccion.color-primario(:dialogo="traduccion2")
-          .col-lg-5
+          .col-lg-5(data-aos="fade-left")
             figure
               img(src="@/assets/curso/tema2/img2.png", style="width:500px").m-auto
     .row.mb-5
       .col-12
-        TabsA.color-acento-botones
+        TabsA.color-acento-botones(data-aos="fade-down")
           .tarjeta.color-acento-contenido.p-4(titulo="<em>Present</em>")
             .row
               .col-lg-7.mb-4.mb-lg-0
@@ -134,7 +134,7 @@
                     thead(style="border-top: 0px")
                       tr
                         th.text-white #[i English verb tense]
-                        th.text-white #[i Past]
+                        th.text-white #[i Future]
                     tbody(style="background-color: #FFF")
                       tr
                         td.text-center #[b #[i Simple]]
@@ -148,7 +148,7 @@
                       tr
                         td.text-center #[b #[i Perfect continuous]]
                         td.text-center #[i I will have been working with several people in 2028.]
-    .row.bg-c28
+    .row.bg-c28(data-aos="fade-left")
       figure.fig-p7.d-none.d-xl-block
         img(src="@/assets/curso/tema2/img4.svg", style="width:50px")
       .col-12.p-5

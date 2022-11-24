@@ -3,17 +3,17 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 4
       h1 #[i Let's talk about the work and social routines I used to have] (Hablemos de las rutinas laborales y sociales que solía tener)
     .row.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         Traduccion.color-primario(:dialogo="traduccion1")
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema4/img1.png", style="width:450px").m-auto
-    .row.mb-5
+    .row.mb-5(data-aos="fade-down")
       .col-lg.bg-c33.m-2
         .p-4
           figure.mb-4
@@ -38,8 +38,8 @@
             .col-12.bg-c34
               .p-4
                 p.mb-0.text-center #[i They #[span.txt-c1 used to] live in Medellin (but now they live in Bogota).]
-    p.mb-5 #[i We use used to + infinitive to talk about a past situation that is no longer true. It tells us that there was a repeated action or state in the past which has now changed. So check the grammar:] / #[span.txt-c2 Usamos #[i used to] + infinitivo para hablar de una situación pasada que ya no es cierta. Nos dice que hubo una acción o estado repetido en el pasado que ahora ha cambiado. Así que revise la gramática:]
-    .row.mb-5
+    p.mb-5(data-aos="fade-right") #[i We use used to + infinitive to talk about a past situation that is no longer true. It tells us that there was a repeated action or state in the past which has now changed. So check the grammar:] / #[span.txt-c2 Usamos #[i used to] + infinitivo para hablar de una situación pasada que ya no es cierta. Nos dice que hubo una acción o estado repetido en el pasado que ahora ha cambiado. Así que revise la gramática:]
+    .row.mb-5(data-aos="fade-left")
       .col-12.bg-c35.p-4
         .row.align-items-center
           .col-lg-auto.mb-4.mb-lg-0
@@ -51,7 +51,7 @@
       .col-12.p-5
         p.mb-5 #[i For example:]
         .row.mb-5
-          .col-lg.bg-c33.m-2
+          .col-lg.bg-c33.m-2(data-aos="fade-right")
             .row
               .col-12.p-5
                 figure.mb-4
@@ -60,7 +60,7 @@
                   .col-12.bg-c34
                     .p-4
                       p.mb-0.text-center #[i She #[b.txt-c1 used to] work in a bank but she left and got a job as a gardener.]
-          .col-lg.bg-c33.m-2
+          .col-lg.bg-c33.m-2(data-aos="fade-left")
             .row
               .col-12.p-5
                 figure.mb-4
@@ -69,7 +69,7 @@
                   .col-12.bg-c34
                     .p-4
                       p.mb-0.text-center #[i When we were at university, we #[b.txt-c1 used to] have to write an essay a week.]
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="fade-down")
           .col-lg-10
             .row.align-items-center
               .col-lg-4.fig-p10.mb-4.mb-lg-0
@@ -85,8 +85,8 @@
                         a.boton.color-acento-botones(href="https://youtu.be/hQZcRq22IFw" target="_blank" type="application/pdf")
                           span Ver video
                           i.fas.fa-video
-    p.mb-5 #[i Now, we are going to practice. Listen each audio and complete:]
-    Dialogo.color-acento-contenido.mb-5(:dialogo="dialogo")
+    p.mb-5(data-aos="fade-right") #[i Now, we are going to practice. Listen each audio and complete:]
+    Dialogo.color-acento-contenido.mb-5(:dialogo="dialogo")(data-aos="fade-left")
       template(#nombre-actividad) Arrastrar y Soltar
       template(#titulo-actividad) #[i Used to]
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
@@ -163,7 +163,7 @@ export default {
         {
           personaje: 'Isa',
           textoIng: 'Yep! I used to be fun!',
-          textoEsp: 'Si, solía ser divertida.',
+          textoEsp: 'Sí, solía ser divertida.',
           audio: require('@/assets/curso/tema4/audio6.mp3'),
           palabra: '',
         },

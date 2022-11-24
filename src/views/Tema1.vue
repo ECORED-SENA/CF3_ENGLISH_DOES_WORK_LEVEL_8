@@ -3,31 +3,31 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 1
       h1 #[i Reported speech - direct] (Reporte de frases - directo)
     .row
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema1/img1.png", style="width:500px").m-auto
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         Traduccion.color-primario(:dialogo="traduccion1")
     .row.bg-c7.mb-5
       .col-12.p-5
-        .row.bg-c4.mb-5
+        .row.bg-c4.mb-5(data-aos="fade-up")
           .col-12.px-4.pt-4
             .titulo-sexto.color-acento-contenido.mb-5
               p.mb-0 #[b Figura 1]. #[i Reported speech direct]
             figure
               img(src="@/assets/curso/tema1/img2.svg", style="width:600px").m-auto
         .row.mb-5
-          .col-lg-2.mb-4.mb-lg-0
+          .col-lg-2.mb-4.mb-lg-0(data-aos="fade-right")
             figure
               img(src="@/assets/curso/tema1/img3.svg", style="width:180px").m-auto
-          .col-lg-10
+          .col-lg-10(data-aos="fade-left")
             Traduccion.color-primario(:dialogo="traduccion2")
-        .row.justify-content-center.mb-5
+        .row.justify-content-center.mb-5(data-aos="fade-down")
           .col-md-8.col-lg-4.bg-c5
             .row.justify-content-center
               .col-12.p-0
@@ -61,13 +61,13 @@
                 p.mb-0.text-center.txt-c1 #[i Reported]
                 p.text-center.txt-c2.mb-0 #[i He said “my dog comes with me”.]
                 p.text-center.txt-c2.mb-0 Él dijo "mi perro viene conmigo".
-        .row
+        .row(data-aos="fade-right")
           .col-lg-6.mb-4.mb-lg-0
             figure
               img(src="@/assets/curso/tema1/img5.png", style="width:550px").m-auto
           .col-lg-6
             Traduccion.color-primario(:dialogo="traduccion3")
-    .row.bg-c8.mb-5
+    .row.bg-c8.mb-5(data-aos="fade-left")
       .col-12.p-5
         .row.align-items-center
           .col-lg-3.mb-4.mb-lg-0(style="z-index:2")
@@ -81,7 +81,7 @@
                   p #[i I remember when my sister lost her job, #[b she said: “I do not know what to do” and I said: “we are going to find something to do”]. That was when the business started.]
                   p #[i At the beginning, a bunch of ideas came to my mind. I wanted to have a café but that was not a choice, as my #[b mom says: a business like a restaurant or related to food needs too much time”]. Then it came to my mind the idea of opening a language center and I said to myself: “I am going to do it” and that was when the difficult times came.]
                   p #[i At the beginning, we had to do every single task, we did not have time, and there was no chance to hire someone because there was no money. My sister used to repeat: “There is no money”.]
-    .row.bg-c12
+    .row.bg-c12(data-aos="fade-up")
       .col-12.p-5
         figure.d-none.d-lg-block.fig-p3
           img(src="@/assets/curso/tema1/img8.svg", style="width:70px")
@@ -170,12 +170,12 @@
     .titulo-segundo.color-primario
       h2 1.1 #[i Job] (Empleo)
     .row.mb-5
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema1/img10.svg", style="width:450px").m-auto
-      .col-lg-7
+      .col-lg-7(data-aos="fade-left")
         Traduccion.color-primario(:dialogo="traduccion4")
-    .row.bg-c13.mb-5
+    .row.bg-c13.mb-5(data-aos="fade-down")
       .col-12.p-5
         .row.justify-content-center
           .col-lg-11.p-4
@@ -270,9 +270,9 @@
                     p.text-center.mb-0 They said: “We work in rivers selling fish”
     .row.bg-c22
       .col-12.p-5
-        Traduccion.color-primario.mb-5(:dialogo="traduccion5")
+        Traduccion.color-primario.mb-5(:dialogo="traduccion5")(data-aos="fade-up")
         .row
-          .col-lg-8.mb-4.mb-lg-0
+          .col-lg-8.mb-4.mb-lg-0(data-aos="fade-right")
             .row
               .col-lg-12.d-none.d-lg-block
                 .tabla-a.color-acento-botones
@@ -291,7 +291,7 @@
                     tbody(style="background-color: #FFF")
                       tr
                         td.text-center #[b a.] #[i They said they danced with two girls.]
-                        td.text-center #[b a.] #[iA student said: "I always do my homework."]
+                        td.text-center #[b a.] #[i A student said: "I always do my homework."]
                       tr
                         td.text-center #[b b.] #[i We said we danced with two girls.]
                         td.text-center #[b b.] #[i A student said: "They always do my homework."]
@@ -363,7 +363,7 @@
                           tbody(style="background-color: #FFF")
                             tr
                               td.text-center #[b.txt-c7 #[i a. A student said: "I always do my homework."]]
-          .col-lg-4.d-none.d-lg-block
+          .col-lg-4.d-none.d-lg-block(data-aos="fade-left")
             figure
               img(src="@/assets/curso/tema1/img15.png", style="width:350px").m-auto
     Separador
@@ -371,14 +371,14 @@
     .titulo-segundo.color-primario
       h2 1.2 #[i Affirmative, negative, and interrogative structures] (Estructuras afirmativas, negativas e interrogativas)
     .row.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         Traduccion.color-primario.mb-5(:dialogo="traduccion6")
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/img18.png", style="width:450px").m-auto
     .row.bg-c23.mb-5
       .col-12.p-5
-        .row.justify-content-center
+        .row.justify-content-center(data-aos="fade-down")
           figure.fig-p5.d-none.d-xl-block
             img(src="@/assets/curso/tema1/img17.svg", style="width:50px")
           .col-11.bg-c24.p-5
@@ -424,12 +424,12 @@
           figure.fig-p6.d-none.d-xl-block
             img(src="@/assets/curso/tema1/img8.svg", style="width:80px")
     .row.align-items-center.mb-5
-      .col-lg-6.bg-c26.p-5.mb-4.mb-lg-0
+      .col-lg-6.bg-c26.p-5.mb-4.mb-lg-0(data-aos="fade-right")
         p.my-4.mx-5 #[i Now listen and complete with the missing words]. #[span.txt-c3 Ahora escuche y complete con las palabras faltantes.]
-      .col-lg-6
+      .col-lg-6(data-aos="fade-left")
         figure
           img(src="@/assets/curso/tema1/img19.png", style="width:670px")
-    Dialogo.color-acento-contenido.mb-5(:dialogo="dialogo")
+    Dialogo.color-acento-contenido.mb-5(:dialogo="dialogo")(data-aos="fade-right")
       template(#nombre-actividad) Escuche los audios y complete los espacios en blanco de cada una de las frases arrastrando el término correcto.
       template(#titulo-actividad) #[i Direct speech]
       template(#descripcion-actividad) Arrastra y suelta cada una de las palabras en el orden correcto.
@@ -539,7 +539,7 @@ export default {
       dialogo: [
         {
           personaje: 'Peter',
-          textoIng: 'She says: "I *** ill."',
+          textoIng: 'She says: "I *** ill".',
           textoEsp: 'Ella dice: “Yo estoy enferma”.',
           audio: require('@/assets/curso/tema1/audio12.mp3'),
           palabra: 'am',
@@ -553,21 +553,21 @@ export default {
         },
         {
           personaje: 'Joseph',
-          textoIng: 'She said: "The *** is difficult."',
+          textoIng: 'She said: "The *** is difficult".',
           textoEsp: 'Ella dijo: “El examen está difícil”.',
           audio: require('@/assets/curso/tema1/audio14.mp3'),
           palabra: 'exam',
         },
         {
           personaje: 'Charlie',
-          textoIng: 'They said: "They have *** exercise."',
+          textoIng: 'They said: "They have *** exercise".',
           textoEsp: 'Ellos dijeron: “Ellos han hecho ejercicio”.',
           audio: require('@/assets/curso/tema1/audio15.mp3'),
           palabra: 'taken',
         },
         {
           personaje: 'Ivy',
-          textoIng: 'She said: "They have not *** their meals."',
+          textoIng: 'She said: "They have not *** their meals".',
           textoEsp: 'Ella dijo: “Ellos no han comido sus comidas”.',
           audio: require('@/assets/curso/tema1/audio16.mp3'),
           palabra: 'eaten',

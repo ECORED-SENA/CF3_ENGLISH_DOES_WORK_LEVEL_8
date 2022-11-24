@@ -3,24 +3,24 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span(style="color: #FFF") 3
       h1 #[i Reported speech - indirect] (Reporte de frases - indirecto)
     .row.bg-c29.mb-5
       .col-12.px-5
         .row.mb-5
-          .col-lg-7.mb-4.mb-lg-0
+          .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
             Traduccion.color-primario(:dialogo="traduccion1")
-          .col-lg-5
+          .col-lg-5(data-aos="fade-left")
             figure
               img(src="@/assets/curso/tema3/img1.png", style="width:500px").m-auto
-        figure.mb-5
+        figure.mb-5(data-aos="fade-up")
           .video
             iframe(width="560" height="315" src="https://www.youtube.com/embed/K3B4LsxubB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        .titulo-sexto.color-primario.mb-4
+        .titulo-sexto.color-primario.mb-4(data-aos="fade-right")
           p.mb-0 #[b Tabla 2]. #[i Direct and indirect speech]
-        .tabla-b.color-acento-contenido.borde1.mb-5
+        .tabla-b.color-acento-contenido.borde1.mb-5(data-aos="fade-left")
           .tabla-b__header.fondo2
             .row
               .col-12
@@ -57,14 +57,14 @@
               td.border3.mb-0.text-center(style="background-color: #D6E0FD") #[i They ordered us to leave at once.]
               td.mb-0.text-center #[i to-infinitive clause]
     .row.mb-5
-      .col-lg-4.mb-4.mb-lg-0
+      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema3/img3.png", style="width:450px").m-auto
-      .col-lg-8
+      .col-lg-8(data-aos="fade-left")
         Traduccion.color-primario(:dialogo="traduccion2")
     .row.bg-c30.mb-5
       .col-12.p-5
-        .tarjeta.tarjeta--blanca.p-4.mb-5
+        .tarjeta.tarjeta--blanca.p-4.mb-5(data-aos="fade-down")
           SlyderA(tipo="b")
             .row
               .col-12.p-4
@@ -102,11 +102,11 @@
     .row.bg-c31
       .col-12.p-5
         .row.align-items-center.mb-4
-          .col-lg-5.mb-4.mb-lg-0
+          .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
             p.mb-5 #[i Let’s practice: speaking]
             figure
               img(src="@/assets/curso/tema3/img9.svg", style="width:450px").m-auto
-          .col-lg-7
+          .col-lg-7(data-aos="fade-left")
             Traduccion.color-primario.mb-4(:dialogo="traduccion5")
             .row
               .col-12.bg-c32.px-5.py-4
@@ -131,7 +131,7 @@
                     i.fas.fa-angle-right(style="color:#FC5F65")
                     |
                     p.mb-0 #[i Which two promises will you make concerning learning English?]
-        .row
+        .row(data-aos="fade-right")
           .col-12
             Traduccion.color-primario.mb-4(:dialogo="traduccion6")
 
@@ -181,9 +181,9 @@ export default {
       dialogo: [
         {
           textoIng:
-            '<em><b>Reporting yes-no questions and alternative questions.</b><br>Indirect reports of yes-no questions and questions with or consist of a reporting clause and a reported clause introduced by if or whether. If is more common than whether. The reported clause is in statement form (subject & verb), not question form:<br><br><ol><li>• She asked if I was Scottish. (original yes-no question: ‘Are you Scottish?’)</li><li>• The waiter asked <b>whether</b> we wanted a table near the window. (original yes-no question: ‘Do you want a table near the window?)</li><li>• He asked me if I had come by train or by bus. (original alternative question: ‘Did you come by train or by bus?’)</li></em>',
+            '<em><b>Reporting yes-no questions and alternative questions.</b><br>Indirect reports of yes-no questions and questions with or consist of a reporting clause and a reported clause introduced by if or whether. If is more common than whether. The reported clause is in statement form (subject & verb), not question form:<br><br><ol><li>• She asked if I was Scottish. (original yes-no question: ‘Are you Scottish?’)</li><li>• The waiter asked <b>whether</b> we wanted a table near the window. (original yes-no question: ‘Do you want a table near the window?’)</li><li>• He asked me if I had come by train or by bus. (original alternative question: ‘Did you come by train or by bus?’)</li></em>',
           textoEsp:
-            '<b>Reporte de preguntas sí-no y preguntas alternativas</b><br><i>Indirect speech</i> de preguntas sí-no y preguntas con o que consisten en una cláusula de informe y una cláusula informada introducida por <i>if</i> o <i>whether</i>. <i>if</i> es más común que <i>whether</i>. La cláusula informada está en forma de una oración afirmativa (sujeto y verbo), no en forma de pregunta:<br><br><ol><li>• <i>She asked if I was Scottish</i>. (pregunta de sí-no original: <i>‘Are you Scottish?’</i>)</li><li>• <i>The waiter asked whether we wanted a table near the window</i>. (pregunta de sí-no original: <i>‘Do you want a table near the window?</i>)</li><li>• <i>He asked me if I had come by train or by bus</i>. (pregunta alternativa original: <i>‘Did you come by train or by bus?’</i>)</li>',
+            '<b>Reporte de preguntas sí-no y preguntas alternativas</b><br><i>Indirect speech</i> de preguntas sí-no y preguntas con o que consisten en una cláusula de informe y una cláusula informada introducida por <i>if</i> o <i>whether</i>. <i>if</i> es más común que <i>whether</i>. La cláusula informada está en forma de una oración afirmativa (sujeto y verbo), no en forma de pregunta:<br><br><ol><li>• <i>She asked if I was Scottish</i>. (pregunta de sí-no original: <i>‘Are you Scottish?’</i>)</li><li>• <i>The waiter asked whether we wanted a table near the window</i>. (pregunta de sí-no original: <i>‘Do you want a table near the window?’</i>)</li><li>• <i>He asked me if I had come by train or by bus</i>. (pregunta alternativa original: <i>‘Did you come by train or by bus?’</i>)</li>',
         },
       ],
     },
